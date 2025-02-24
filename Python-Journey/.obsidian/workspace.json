@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modulo Operator.md",
-                "mode": "source",
+                "file": "Learning Path Recommendation.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modulo Operator"
+              "title": "Learning Path Recommendation"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modulo Operator.md",
+                "file": "Learning Path Recommendation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Modulo Operator"
+              "title": "Enlaces entrantes de Learning Path Recommendation"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modulo Operator.md",
+                "file": "Learning Path Recommendation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Modulo Operator"
+              "title": "Enlaces salientes de Learning Path Recommendation"
             }
           },
           {
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modulo Operator.md",
+                "file": "Learning Path Recommendation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Modulo Operator"
+              "title": "Esquema de Learning Path Recommendation"
             }
           }
         ]
@@ -199,8 +199,8 @@
   },
   "active": "8369062f8157943b",
   "lastOpenFiles": [
-    "Learning Path Recommendation.md",
     "Modulo Operator.md",
+    "Learning Path Recommendation.md",
     "pep-8-cheatsheet.md",
     "Bienvenido.md"
   ]
