@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "try-except-else-finally.md",
+                "file": "ERROR HANDLING try-except-else-finally.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "try-except-else-finally"
+              "title": "ERROR HANDLING try-except-else-finally"
             }
           },
           {
@@ -228,7 +228,7 @@
   "active": "43d0ad15269dd716",
   "lastOpenFiles": [
     "flags, breaks and continue.md",
-    "try-except-else-finally.md",
+    "ERROR HANDLING try-except-else-finally.md",
     "Uso de Flags para whiles.md",
     "Modulo Operator.md",
     "Learning Path Recommendation.md",
