@@ -1,0 +1,5 @@
+In Python you can easily create and manipulate lists, tuples, and dictionaries as powerful data structures.
+In Python you can write clean, readable code with significant whitespace and indentation that defines code blocks.
+In Python you can use list comprehensions to create lists with concise and expressive one-line transformations.
+In Python you can work with functions as first-class objects, allowing you to pass them as arguments, return them from other functions, and store them in variables.
+In Python you can leverage extensive standard libraries and third-party packages for almost any programming task, from web development to data science.
