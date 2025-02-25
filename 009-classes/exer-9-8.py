@@ -1,10 +1,9 @@
 """
-9-7. Admin: An administrator is a special kind of user. Write a class called
-Admin that inherits from the User class you wrote in Exercise 9-3 (page 166)
-or Exercise 9-5 (page 171). Add an attribute, privileges, that stores a list
-of strings like "can add post", "can delete post", "can ban user", and so on.
-Write a method called show_privileges() that lists the administrator’s set of
-privileges. Create an instance of Admin, and call your method.
+9-8. Privileges: Write a separate Privileges class. The class should have one
+attribute, privileges, that stores a list of strings as described in Exercise 9-7.
+Move the show_privileges() method to this class. Make a Privileges instance
+as an attribute in the Admin class. Create a new instance of Admin and use your
+method to show its privileges.
 """
 
 class User():
@@ -32,20 +31,27 @@ class User():
         """Greet the user"""
         print(f'Hi there, {self.first_name.title()} {self.last_name.title()}!!!')
 
-class Admin(User):
-    """User with privileges"""
-
-    def __init__(self, first_name, last_name, age, fav_game, height):
-        """Initialize varibles"""
-        super().__init__(first_name, last_name, age, fav_game, height)
+class Privileges():
+    """Manage all privileges"""
+    def __init__(self):
         self.privileges = ['can add post', 'can delete post', 'can add users',
                            'can delete users']
+        
     def show_privileges(self):
         """Show all the privileges"""
         print(f'-----DISPLAYING ALL PRIVILEGES-----')
         for privilege in self.privileges:
             print(f'- {privilege.upper()}.')
         print(f'-----------------------------------')
+        
 
+class Admin(User):
+    """User with privileges"""
+
+    def __init__(self, first_name, last_name, age, fav_game, height):
+        """Initialize varibles"""
+        super().__init__(first_name, last_name, age, fav_game, height)
+        self.privileges = Privileges()
+    
 my_admin = Admin('juan', 'caballo', 22, 'plug and play', '182cm')
-my_admin.show_privileges()
+my_admin.privileges.show_privileges()
